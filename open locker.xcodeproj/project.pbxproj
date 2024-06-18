@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AC946192C221DFF0050F904 /* Sobre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC946182C221DFF0050F904 /* Sobre.swift */; };
 		F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */; };
 		F5ABB16F2C220C370041BE46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16E2C220C370041BE46 /* ContentView.swift */; };
 		F5ABB1712C220C380041BE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ABB1702C220C380041BE46 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AC946182C221DFF0050F904 /* Sobre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sobre.swift; sourceTree = "<group>"; };
 		F5ABB1692C220C370041BE46 /* open locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "open locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = open_lockerApp.swift; sourceTree = "<group>"; };
 		F5ABB16E2C220C370041BE46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		F5ABB1602C220C370041BE46 = {
 			isa = PBXGroup;
 			children = (
+				5AC946182C221DFF0050F904 /* Sobre.swift */,
 				F5ABB16B2C220C370041BE46 /* open locker */,
 				F5ABB16A2C220C370041BE46 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5ABB16F2C220C370041BE46 /* ContentView.swift in Sources */,
+				5AC946192C221DFF0050F904 /* Sobre.swift in Sources */,
 				F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
