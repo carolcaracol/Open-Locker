@@ -11,7 +11,7 @@ struct TelaInicial: View {
         ZStack {
             VStack {
                 Spacer()
-                ZStack {                        Image(.logoInicial)
+                ZStack {                   Image(.logoInicial)
                     Spacer()
                 }
                 .padding(.bottom, 36.0)
@@ -19,7 +19,7 @@ struct TelaInicial: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    Image(.botãoIniciar)
+                    Image(.inicio)
                     Spacer()
                     Image(.lock)
                         .padding()
