@@ -11,27 +11,35 @@ struct TelaInicial: View {
         ZStack {
             VStack {
                 Spacer()
-                ZStack {                   Image(.logoInicial)
-                    Spacer()
+                ZStack {
+                    Image(.logoInicial)
+                        .padding(.bottom, 20)
                 }
-                .padding(.bottom, 36.0)
                 Image(.fendas)
-                Spacer()
-                HStack {
-                    Spacer()
-                    Image(.inicio)
-                    Spacer()
-                    Image(.lock)
-                        .padding()
+                    .padding(.bottom, 80)
+                VStack(alignment: .leading) {
+                    HStack {
+                        Image(.inicio)
+                        Spacer()
+                        Image(.lock)
+                    }
+                    Image(.sobre)
+                        .padding(.top, -30)
                 }
-                Image(.sobre)
-                    .padding()
+                .padding(.leading, 40)
+                .padding(.bottom, 40)
+                .padding(.trailing, 40)
+//                    .padding([.bottom, .trailing], 120.0)
+                    
                 Spacer()
             }
             .padding()
             .background(Color.roxoclaro)
             .edgesIgnoringSafeArea(.all)
             Image(.fundorecorte)
+                .resizable()
+                .scaledToFit()
+            
         }
     }
 }
