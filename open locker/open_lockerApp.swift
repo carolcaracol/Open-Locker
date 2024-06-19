@@ -11,7 +11,7 @@ import SwiftUI
 struct open_lockerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SorteioView()
         }
     }
 }
