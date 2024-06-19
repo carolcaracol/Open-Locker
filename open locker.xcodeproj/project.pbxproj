@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */; };
-		F5ABB16F2C220C370041BE46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16E2C220C370041BE46 /* ContentView.swift */; };
+		F5ABB16F2C220C370041BE46 /* SorteioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16E2C220C370041BE46 /* SorteioView.swift */; };
 		F5ABB1712C220C380041BE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ABB1702C220C380041BE46 /* Assets.xcassets */; };
 		F5ABB1742C220C380041BE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ABB1732C220C380041BE46 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		F5ABB1692C220C370041BE46 /* open locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "open locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = open_lockerApp.swift; sourceTree = "<group>"; };
-		F5ABB16E2C220C370041BE46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5ABB16E2C220C370041BE46 /* SorteioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorteioView.swift; sourceTree = "<group>"; };
 		F5ABB1702C220C380041BE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5ABB1732C220C380041BE46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */,
-				F5ABB16E2C220C370041BE46 /* ContentView.swift */,
+				F5ABB16E2C220C370041BE46 /* SorteioView.swift */,
 				F5ABB1702C220C380041BE46 /* Assets.xcassets */,
 				F5ABB1722C220C380041BE46 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5ABB16F2C220C370041BE46 /* ContentView.swift in Sources */,
+				F5ABB16F2C220C370041BE46 /* SorteioView.swift in Sources */,
 				F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
