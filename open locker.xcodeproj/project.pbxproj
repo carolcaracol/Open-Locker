@@ -35,7 +35,7 @@
 		F5ABB1602C220C370041BE46 = {
 			isa = PBXGroup;
 			children = (
-				F5ABB16B2C220C370041BE46 /* open locker */,
+				F5ABB16B2C220C370041BE46 /* open-locker */,
 				F5ABB16A2C220C370041BE46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +48,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5ABB16B2C220C370041BE46 /* open locker */ = {
+		F5ABB16B2C220C370041BE46 /* open-locker */ = {
 			isa = PBXGroup;
 			children = (
-				F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */,
 				F5ABB16E2C220C370041BE46 /* SorteioView.swift */,
+				F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */,
 				F5ABB1702C220C380041BE46 /* Assets.xcassets */,
 				F5ABB1722C220C380041BE46 /* Preview Content */,
 			);
-			path = "open locker";
+			path = "open-locker";
 			sourceTree = "<group>";
 		};
 		F5ABB1722C220C380041BE46 /* Preview Content */ = {
