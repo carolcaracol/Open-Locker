@@ -36,6 +36,8 @@ struct SorteioView: View {
                                 .font(.subheadline)
                             
                             
+                            
+                            
                         }
                     }
                 )
