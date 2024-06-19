@@ -31,6 +31,7 @@ struct TelaInicial: View {
             .padding()
             .background(Color.roxoclaro)
             .edgesIgnoringSafeArea(.all)
+            Image(.fundorecorte)
         }
     }
 }
