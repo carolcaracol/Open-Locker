@@ -11,6 +11,7 @@
 		F5ABB16F2C220C370041BE46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16E2C220C370041BE46 /* ContentView.swift */; };
 		F5ABB1712C220C380041BE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ABB1702C220C380041BE46 /* Assets.xcassets */; };
 		F5ABB1742C220C380041BE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ABB1732C220C380041BE46 /* Preview Assets.xcassets */; };
+		F5ABB17B2C234FB50041BE46 /* cartaDeBaralhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB17A2C234FB50041BE46 /* cartaDeBaralhoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F5ABB16E2C220C370041BE46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5ABB1702C220C380041BE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5ABB1732C220C380041BE46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5ABB17A2C234FB50041BE46 /* cartaDeBaralhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartaDeBaralhoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */,
 				F5ABB16E2C220C370041BE46 /* ContentView.swift */,
 				F5ABB1702C220C380041BE46 /* Assets.xcassets */,
+				F5ABB17A2C234FB50041BE46 /* cartaDeBaralhoView.swift */,
 				F5ABB1722C220C380041BE46 /* Preview Content */,
 			);
 			path = "open locker";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5ABB17B2C234FB50041BE46 /* cartaDeBaralhoView.swift in Sources */,
 				F5ABB16F2C220C370041BE46 /* ContentView.swift in Sources */,
 				F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */,
 			);
