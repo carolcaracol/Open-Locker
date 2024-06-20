@@ -21,7 +21,7 @@ struct NavBar: View {
                     Image(.fichaHome)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 130, height: 55)
+//                        .frame(width: 130, height: 55)
                       
                     
                     VStack(spacing: 1) {
@@ -49,7 +49,7 @@ struct NavBar: View {
                     Image(.fichaGaleria)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 140, height: 55)
+//                        .frame(width: 140, height: 55)
                      
                     
                     VStack(spacing: 1) {
@@ -76,7 +76,7 @@ struct NavBar: View {
                     Image(.fichaPremios)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 130, height: 55)
+//                        .frame(width: 130, height: 55)
                     
                     VStack(spacing: 2) {
                             Image(.trofeuIcon)
@@ -93,7 +93,7 @@ struct NavBar: View {
             })
             
             
-        } 
+        } .scaledToFit()
     }
 }
 
