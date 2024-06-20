@@ -26,34 +26,38 @@ struct HomePrincipal: View {
                     
                 }
                 Spacer()
-                HStack {
-                    Text("escolha!")
-                        .font(.title)
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(.roxo)
-                        .padding(.trailing, 225)
-                }
-                VStack {
-                    Rectangle()
-                        .frame(width: 185, height: 3) // Altura da linha
-                        .foregroundColor(.black)
-                        .padding(.trailing, 165)
-                    
                     Spacer()
                         .frame(height: 20)
-                    
-                    RoundedRectangle(cornerRadius: 10)
-                        .frame (width: 358, height: 551)
-                        .foregroundColor(.clear)
-                        .border(.black, width: 6)
-                    
+                    ZStack {
+                        VStack {
+                            Rectangle()
+                                .frame(width: 358, height: 551)
+                                .foregroundColor(.black)                                .clipShape(.rect(cornerRadius: 20.0).stroke(lineWidth: 4.0))
+//                                .cornerRadius(20.0)
+                                .padding(.bottom, 100)
+                        }
+                        VStack {
+                            Text("escolha!")
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundColor(.roxo)
+                                .padding(.trailing, 200)
+                                .padding(.bottom, -1)
+                            Rectangle()
+                                .frame(width: 185, height: 3) // Altura da linha
+                                .foregroundColor(.black)
+                                .padding(.trailing, 125)
+                                .padding(.bottom, 490)
+                        }
+                        
+                    }
                 }
                 
                 
             
         }
     }
-}
+
 
 #Preview {
     HomePrincipal()
