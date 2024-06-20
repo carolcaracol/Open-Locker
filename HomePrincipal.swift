@@ -43,10 +43,9 @@ struct HomePrincipal: View {
             }
             .navigationTitle("tipos")
             .font(.system(size:16))
-            .foregroundColor(.black)
             .toolbarBackground(.visible, for: .navigationBar)
-            .toolbarBackground(.roxo, for: .navigationBar)
-            .toolbarColorScheme(.dark, for: .navigationBar, .tabBar)
+            .toolbarBackground(.white, for: .navigationBar)
+            .toolbarColorScheme(.light, for: .navigationBar, .tabBar)
             
             
         }
