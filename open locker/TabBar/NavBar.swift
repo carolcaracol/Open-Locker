@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NavBar: View {
     var body: some View {
-        HStack{
+        HStack(alignment: .center, spacing: -15){
             
             Button(
                 action: {
@@ -22,7 +22,7 @@ struct NavBar: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 130, height: 55)
-                        .ignoresSafeArea()
+                      
                     
                     VStack(spacing: 1) {
                             Image(.homeIcon)
@@ -50,7 +50,7 @@ struct NavBar: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 140, height: 55)
-                        .ignoresSafeArea()
+                     
                     
                     VStack(spacing: 1) {
                             Image(.galeriaIcon)
@@ -77,7 +77,6 @@ struct NavBar: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 130, height: 55)
-                        .ignoresSafeArea()
                     
                     VStack(spacing: 2) {
                             Image(.trofeuIcon)
@@ -94,7 +93,7 @@ struct NavBar: View {
             })
             
             
-        } .ignoresSafeArea()
+        } 
     }
 }
 
