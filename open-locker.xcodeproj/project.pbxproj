@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5ABB1692C220C370041BE46 /* open locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "open locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5ABB1692C220C370041BE46 /* open-locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "open-locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = open_lockerApp.swift; sourceTree = "<group>"; };
 		F5ABB16E2C220C370041BE46 /* SorteioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorteioView.swift; sourceTree = "<group>"; };
 		F5ABB1702C220C380041BE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		F5ABB1602C220C370041BE46 = {
 			isa = PBXGroup;
 			children = (
-				F5ABB16B2C220C370041BE46 /* open locker */,
+				F5ABB16B2C220C370041BE46 /* open-locker */,
 				F5ABB16A2C220C370041BE46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		F5ABB16A2C220C370041BE46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5ABB1692C220C370041BE46 /* open locker.app */,
+				F5ABB1692C220C370041BE46 /* open-locker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5ABB16B2C220C370041BE46 /* open locker */ = {
+		F5ABB16B2C220C370041BE46 /* open-locker */ = {
 			isa = PBXGroup;
 			children = (
 				F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */,
@@ -56,7 +56,7 @@
 				F5ABB1702C220C380041BE46 /* Assets.xcassets */,
 				F5ABB1722C220C380041BE46 /* Preview Content */,
 			);
-			path = "open locker";
+			path = "open-locker";
 			sourceTree = "<group>";
 		};
 		F5ABB1722C220C380041BE46 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5ABB1682C220C370041BE46 /* open locker */ = {
+		F5ABB1682C220C370041BE46 /* open-locker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5ABB1772C220C380041BE46 /* Build configuration list for PBXNativeTarget "open locker" */;
+			buildConfigurationList = F5ABB1772C220C380041BE46 /* Build configuration list for PBXNativeTarget "open-locker" */;
 			buildPhases = (
 				F5ABB1652C220C370041BE46 /* Sources */,
 				F5ABB1662C220C370041BE46 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "open locker";
+			name = "open-locker";
 			productName = "open locker";
-			productReference = F5ABB1692C220C370041BE46 /* open locker.app */;
+			productReference = F5ABB1692C220C370041BE46 /* open-locker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5ABB1642C220C370041BE46 /* Build configuration list for PBXProject "open locker" */;
+			buildConfigurationList = F5ABB1642C220C370041BE46 /* Build configuration list for PBXProject "open-locker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5ABB1682C220C370041BE46 /* open locker */,
+				F5ABB1682C220C370041BE46 /* open-locker */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"open locker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"open-locker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"open locker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"open-locker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5ABB1642C220C370041BE46 /* Build configuration list for PBXProject "open locker" */ = {
+		F5ABB1642C220C370041BE46 /* Build configuration list for PBXProject "open-locker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5ABB1752C220C380041BE46 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5ABB1772C220C380041BE46 /* Build configuration list for PBXNativeTarget "open locker" */ = {
+		F5ABB1772C220C380041BE46 /* Build configuration list for PBXNativeTarget "open-locker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5ABB1782C220C380041BE46 /* Debug */,
