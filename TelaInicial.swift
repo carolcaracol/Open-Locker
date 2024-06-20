@@ -13,7 +13,7 @@ struct TelaInicial: View {
                 Spacer()
                 ZStack {
                     Image(.logoInicial)
-                        .padding(.bottom, 20)
+                        .padding(.bottom, 40)
                 }
                 Image(.fendas)
                     .padding(.bottom, 80)
