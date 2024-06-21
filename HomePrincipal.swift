@@ -38,14 +38,18 @@ struct HomePrincipal: View {
                             .font(.caption)
                             .padding(.leading, 38)
                             .padding(.trailing, 60)
+                            .padding(.bottom, 30)
                         Image(.chindogubotao)
                         Image(.formasbotao)
                         Image(.cenasbotao)
                         Image(.crazybotao)
+                            .padding(.bottom, 30)
                     }
                     
                     
                 }
+                
+                
                 Rectangle()
                     .frame(width: 393, height: 81)
             }
