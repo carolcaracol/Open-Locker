@@ -22,9 +22,9 @@ struct HomePrincipal: View {
                         //                                .cornerRadius(20.0)
                         //                                .padding(.bottom, 100)
                     }
-                    .padding(.bottom, 15)
+                    .padding(.bottom, 14)
                     VStack {
-                        Text("escolha!")
+                        Text("escolha")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.roxo)
@@ -44,7 +44,7 @@ struct HomePrincipal: View {
                         Image(.formasbotao)
                         Image(.cenasbotao)
                         Image(.crazybotao)
-                            .padding(.bottom, 30)
+                            .padding(.bottom, 40)
                     }
                     
                 }
