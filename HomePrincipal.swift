@@ -34,18 +34,27 @@ struct HomePrincipal: View {
                             .frame(width: 185, height: 3) // Altura da linha
                             .foregroundColor(.black)
                             .padding(.trailing, 125)
-                            .padding(.bottom, 490)
+                        Text("um estilo para aprimorar seus desenhos. Ao selecionar um estilo, você será conectado a um desafio personalizado. Faça o registro de seus resultados para ter a chance de ganhar um prêmio surpresa.")
+                            .font(.caption)
+                            .padding(.leading, 38)
+                            .padding(.trailing, 60)
+                        Image(.chindogubotao)
+                        Image(.formasbotao)
+                        Image(.cenasbotao)
+                        Image(.crazybotao)
                     }
+                    
                     
                 }
                 Rectangle()
                     .frame(width: 393, height: 81)
             }
+            //mudar para toolbar item para mandar para o centro
             .navigationTitle("tipos")
             .font(.system(size:16))
             .toolbarBackground(.visible, for: .navigationBar)
-            .toolbarBackground(.white, for: .navigationBar)
-            .toolbarColorScheme(.light, for: .navigationBar, .tabBar)
+            .toolbarBackground(.roxo, for: .navigationBar)
+            .toolbarColorScheme(.dark, for: .navigationBar, .tabBar)
             
             
         }
