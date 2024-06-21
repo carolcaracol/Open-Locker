@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC1E34D42C24B1220033D533 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E34D32C24B1220033D533 /* RootView.swift */; };
 		BC1E34D72C24B1760033D533 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E34D62C24B1760033D533 /* NavBar.swift */; };
+		BC1E34D92C260C050033D533 /* PlanoB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E34D82C260C050033D533 /* PlanoB.swift */; };
 		F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */; };
 		F5ABB16F2C220C370041BE46 /* SorteioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16E2C220C370041BE46 /* SorteioView.swift */; };
 		F5ABB1712C220C380041BE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ABB1702C220C380041BE46 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		BC1E34D32C24B1220033D533 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		BC1E34D62C24B1760033D533 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		BC1E34D82C260C050033D533 /* PlanoB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanoB.swift; sourceTree = "<group>"; };
 		F5ABB1692C220C370041BE46 /* open locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "open locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = open_lockerApp.swift; sourceTree = "<group>"; };
 		F5ABB16E2C220C370041BE46 /* SorteioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorteioView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				BC1E34D62C24B1760033D533 /* NavBar.swift */,
+				BC1E34D82C260C050033D533 /* PlanoB.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5ABB16F2C220C370041BE46 /* SorteioView.swift in Sources */,
+				BC1E34D92C260C050033D533 /* PlanoB.swift in Sources */,
 				BC1E34D72C24B1760033D533 /* NavBar.swift in Sources */,
 				F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */,
 				BC1E34D42C24B1220033D533 /* RootView.swift in Sources */,
