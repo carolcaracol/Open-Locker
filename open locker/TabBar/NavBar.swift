@@ -17,28 +17,27 @@ struct NavBar: View {
                 
             }, label: {
                     
-                ZStack {
+                ZStack{
+                    
                     Image(.fichaHome)
-                        .resizable()
+//                        .resizable()
                         .scaledToFit()
 //                        .frame(width: 130, height: 55)
                       
                     
-                    VStack(spacing: 1) {
-                            Image(.homeIcon)
+                    VStack(alignment: .center ,spacing: 2) {
+                        Image(.paletaIcon)
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 20, height: 18)
                                 
-                                Text("home")
+                                Text("tecnicas")
                             .foregroundColor(.white)
                             .bold()
                 
                     }
                 }
             })
-            
-            
             Button(
                 action: {
                     // Mudar para galeria
@@ -47,12 +46,12 @@ struct NavBar: View {
                 
                 ZStack {
                     Image(.fichaGaleria)
-                        .resizable()
+//                        .resizable()
                         .scaledToFit()
 //                        .frame(width: 140, height: 55)
                      
                     
-                    VStack(spacing: 1) {
+                    VStack(alignment: .center , spacing: 2) {
                             Image(.galeriaIcon)
                                 .resizable()
                                 .scaledToFit()
@@ -74,11 +73,11 @@ struct NavBar: View {
                
                 ZStack{
                     Image(.fichaPremios)
-                        .resizable()
+//                        .resizable()
                         .scaledToFit()
 //                        .frame(width: 130, height: 55)
                     
-                    VStack(spacing: 2) {
+                    VStack(alignment: .center ,spacing: 2) {
                             Image(.trofeuIcon)
                                 .resizable()
                                 .scaledToFit()
@@ -94,6 +93,8 @@ struct NavBar: View {
             
             
         } .scaledToFit()
+        
+        
     }
 }
 

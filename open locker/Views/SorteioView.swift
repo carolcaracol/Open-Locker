@@ -10,14 +10,16 @@ import SwiftUI
 struct SorteioView: View {
     var body: some View {
             VStack {
+                
+                Spacer()
+                
                 Text("sorteio")
-                    .foregroundStyle(.purple)
+                    .foregroundStyle(.roxo)
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .bold()
+                   
                 
-                Rectangle()
-                    .foregroundColor(.purple)
-                    .frame(width: 353, height: 10)
+                Image(.separador)
                     
                 Image(.baralhoRosa)
                     .padding(76)
@@ -26,24 +28,24 @@ struct SorteioView: View {
                     action: {},
                     label: {
                         ZStack {
-                            Rectangle()
-                                .foregroundColor(.green)
-                                .border(Color.white)
-                                
+                            
+                            Image(.botaoVerde)
+                            
                             Text("SORTEAR")
                                 .foregroundStyle(.black)
                                 .bold()
                                 .font(.subheadline)
-                            
-                            
+
+
                         }
-                    }
-                )
-                .cornerRadius(12)
-                .frame(width: 147,height: 49)
-                
+                    })
+//                .frame(width: 147,height: 49)
+             
+                Spacer()
+               
+                NavBar()
             }
-            .padding()
+
     }
 }
 
