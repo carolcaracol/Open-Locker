@@ -22,6 +22,7 @@ struct HomePrincipal: View {
                         //                                .cornerRadius(20.0)
                         //                                .padding(.bottom, 100)
                     }
+                    .padding(.bottom, 15)
                     VStack {
                         Text("escolha!")
                             .font(.title)
@@ -46,12 +47,16 @@ struct HomePrincipal: View {
                             .padding(.bottom, 30)
                     }
                     
-                    
                 }
-                
-                
+                NavBar()
+                    .padding(.bottom, -10)
                 Rectangle()
-                    .frame(width: 393, height: 81)
+                    .foregroundColor(.roxo)
+                    .ignoresSafeArea()
+                
+                
+//                Rectangle()
+//                    .frame(width: 393, height: 81)
             }
             //mudar para toolbar item para mandar para o centro
             .navigationTitle("tipos")
