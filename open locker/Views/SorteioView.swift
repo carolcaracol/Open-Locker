@@ -9,15 +9,12 @@ import SwiftUI
 
 struct SorteioView: View {
     var body: some View {
+        
             VStack {
                 
                 Spacer()
                 
-                Text("sorteio")
-                    .foregroundStyle(.roxo)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .bold()
-                   
+                Image(.sorteio)
                 
                 Image(.separador)
                     
@@ -44,6 +41,8 @@ struct SorteioView: View {
                 Spacer()
                
                 NavBar()
+                    .padding(-8)
+                
             }
 
     }
