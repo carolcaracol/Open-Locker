@@ -38,10 +38,10 @@ struct SorteioView: View {
                     })
 //                .frame(width: 147,height: 49)
              
-                Spacer()
+               
                
                 NavBar()
-                    .padding(-8)
+               
                 
             }
 
