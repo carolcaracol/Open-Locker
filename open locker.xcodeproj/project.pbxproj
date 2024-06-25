@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AB6B5E42C2B39F600A44A92 /* PopUpSobre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6B5E32C2B39F600A44A92 /* PopUpSobre.swift */; };
 		5AC946212C2B26C90050F904 /* popup-chindogu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC946202C2B26C90050F904 /* popup-chindogu.swift */; };
 		5AC946252C2B2C150050F904 /* popup-formas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC946242C2B2C150050F904 /* popup-formas.swift */; };
 		5AC946272C2B32E80050F904 /* popup-cenas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC946262C2B32E80050F904 /* popup-cenas.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AB6B5E32C2B39F600A44A92 /* PopUpSobre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSobre.swift; sourceTree = "<group>"; };
 		5AC946202C2B26C90050F904 /* popup-chindogu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "popup-chindogu.swift"; sourceTree = "<group>"; };
 		5AC946242C2B2C150050F904 /* popup-formas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "popup-formas.swift"; sourceTree = "<group>"; };
 		5AC946262C2B32E80050F904 /* popup-cenas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "popup-cenas.swift"; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 		F5ABB1602C220C370041BE46 = {
 			isa = PBXGroup;
 			children = (
+				5AB6B5E32C2B39F600A44A92 /* PopUpSobre.swift */,
 				5AC946282C2B34390050F904 /* popup-crazy.swift */,
 				5AC946262C2B32E80050F904 /* popup-cenas.swift */,
 				5AC946242C2B2C150050F904 /* popup-formas.swift */,
@@ -154,6 +157,7 @@
 				F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */,
 				5AC946252C2B2C150050F904 /* popup-formas.swift in Sources */,
 				5AC946292C2B34390050F904 /* popup-crazy.swift in Sources */,
+				5AB6B5E42C2B39F600A44A92 /* PopUpSobre.swift in Sources */,
 				5AC946212C2B26C90050F904 /* popup-chindogu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
