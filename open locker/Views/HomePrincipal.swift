@@ -12,13 +12,13 @@ struct HomePrincipal: View {
         NavigationStack {
             VStack {
                 Spacer()
-                Spacer()
                     .frame(height: 20)
                 ZStack {
                     VStack {
                         Rectangle()
-                            .frame(width: 358, height: 551)
-                            .foregroundColor(.black)                                .clipShape(.rect(cornerRadius: 20.0).stroke(lineWidth: 4.0))
+                            .frame(width: 358, height: 520)
+                            .foregroundColor(.black)                   .clipShape(.rect(cornerRadius: 20.0).stroke(lineWidth: 4.0))
+                        Spacer()
                         //                                .cornerRadius(20.0)
                         //                                .padding(.bottom, 100)
                     }
@@ -46,13 +46,15 @@ struct HomePrincipal: View {
                         Image(.crazybotao)
                             .padding(.bottom, 40)
                     }
-                    
                 }
+                
+                
                 NavBar()
-                    .padding(.bottom, -10)
+                    .padding(.bottom, -26)
                 Rectangle()
-                    .foregroundColor(.roxo)
                     .ignoresSafeArea()
+                    .frame(height: 25)
+                    .foregroundColor(.roxo)
                 
                 
 //                Rectangle()

@@ -47,11 +47,11 @@ struct SorteioView: View {
              
                
                 NavBar()
-                    .padding(.bottom, -10)
+                    .padding(.bottom, -80)
                 
                 Rectangle()
                     .ignoresSafeArea()
-                    .frame(height: 12)
+                    .frame(height: 30)
                     .foregroundColor(.roxo)
                
                 
