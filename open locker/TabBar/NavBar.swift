@@ -9,90 +9,93 @@ import SwiftUI
 
 struct NavBar: View {
     var body: some View {
-        HStack(alignment: .center, spacing: -15){
+        NavigationView {
             
-            Button(
-                action: {
-                    // Mudar para home
+            HStack(alignment: .center, spacing: -15){
                 
-            }, label: {
+                Button(
+                    action: {
+                        // Mudar para home
                     
-                ZStack{
+                }, label: {
+                        
+                    ZStack{
+                        
+                        Image(.fichaHome)
+    //                        .resizable()
+                            .scaledToFit()
+    //                        .frame(width: 130, height: 55)
+                          
+                        
+                        VStack(alignment: .center ,spacing: 2) {
+                            Image(.paletaIcon)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 20, height: 18)
+                                    
+                                    Text("tecnicas")
+                                .foregroundColor(.white)
+                                .bold()
                     
-                    Image(.fichaHome)
-//                        .resizable()
-                        .scaledToFit()
-//                        .frame(width: 130, height: 55)
-                      
+                        }
+                    }
+                })
+                Button(
+                    action: {
+                        // Mudar para galeria
                     
-                    VStack(alignment: .center ,spacing: 2) {
-                        Image(.paletaIcon)
+                }, label: {
+                    
+                    ZStack {
+                        Image(.fichaGaleria)
+    //                        .resizable()
+                            .scaledToFit()
+    //                        .frame(width: 140, height: 55)
+                         
+                        
+                        VStack(alignment: .center , spacing: 2) {
+                                Image(.galeriaIcon)
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 20, height: 18)
                                 
-                                Text("tecnicas")
-                            .foregroundColor(.white)
-                            .bold()
-                
+                                Text("galeria")
+                                .foregroundColor(.white)
+                                .bold()
+                        }
                     }
-                }
-            })
-            Button(
-                action: {
-                    // Mudar para galeria
+                })
                 
-            }, label: {
                 
-                ZStack {
-                    Image(.fichaGaleria)
-//                        .resizable()
-                        .scaledToFit()
-//                        .frame(width: 140, height: 55)
-                     
+                Button(
+                    action: {
+                        // Mudar para premios
                     
-                    VStack(alignment: .center , spacing: 2) {
-                            Image(.galeriaIcon)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 20, height: 18)
-                            
-                            Text("galeria")
-                            .foregroundColor(.white)
-                            .bold()
+                }, label: {
+                   
+                    ZStack{
+                        Image(.fichaPremios)
+    //                        .resizable()
+                            .scaledToFit()
+    //                        .frame(width: 130, height: 55)
+                        
+                        VStack(alignment: .center ,spacing: 2) {
+                                Image(.trofeuIcon)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 21, height: 21)
+                                
+                                Text("prêmios")
+                                .foregroundColor(.white)
+                                .bold()
+                        }
                     }
-                }
-            })
-            
-            
-            Button(
-                action: {
-                    // Mudar para premios
-                
-            }, label: {
-               
-                ZStack{
-                    Image(.fichaPremios)
-//                        .resizable()
-                        .scaledToFit()
-//                        .frame(width: 130, height: 55)
                     
-                    VStack(alignment: .center ,spacing: 2) {
-                            Image(.trofeuIcon)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 21, height: 21)
-                            
-                            Text("prêmios")
-                            .foregroundColor(.white)
-                            .bold()
-                    }
-                }
+                })
                 
-            })
-            
-            
-        } .scaledToFit()
+                
+            } .scaledToFit()
+        }
         
         
     }

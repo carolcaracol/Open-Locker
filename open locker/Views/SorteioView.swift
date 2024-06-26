@@ -14,13 +14,21 @@ struct SorteioView: View {
                 
                 Spacer()
                 
-                Image(.sorteio)
+                HStack {
+                    Image(.sorteio)
+                        .padding(.trailing, 140 )
+                }
+                .padding(-3)
                 
-                Image(.separador)
+                HStack {
+                     Spacer()
+                    Image(.separador)
+                }
                     
                 Image(.baralhoRosa)
                     .padding(76)
                 
+                                
                 Button(
                     action: {},
                     label: {
@@ -35,12 +43,16 @@ struct SorteioView: View {
 
 
                         }
-                    })
-//                .frame(width: 147,height: 49)
+                    }) .padding(.bottom, 30)
              
                
-               
                 NavBar()
+                    .padding(.bottom, -10)
+                
+                Rectangle()
+                    .ignoresSafeArea()
+                    .frame(height: 12)
+                    .foregroundColor(.roxo)
                
                 
             }
