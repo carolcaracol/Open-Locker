@@ -16,11 +16,8 @@ struct OutraView: View {
                     Image(systemName: "house")
                 }
             
-            SorteioView()
-                .tabItem {
-                    Image(systemName: "house")
+           
                     
-                }
             
         }
     }
