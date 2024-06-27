@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCD89A8E2C2DA60400CB1E66 /* OutraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD89A8D2C2DA60400CB1E66 /* OutraView.swift */; };
 		F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */; };
 		F5ABB16F2C220C370041BE46 /* SorteioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABB16E2C220C370041BE46 /* SorteioView.swift */; };
 		F5ABB1712C220C380041BE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ABB1702C220C380041BE46 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCD89A8D2C2DA60400CB1E66 /* OutraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutraView.swift; sourceTree = "<group>"; };
 		F5ABB1692C220C370041BE46 /* open locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "open locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = open_lockerApp.swift; sourceTree = "<group>"; };
 		F5ABB16E2C220C370041BE46 /* SorteioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorteioView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				F5ABB16C2C220C370041BE46 /* open_lockerApp.swift */,
 				F5ABB16E2C220C370041BE46 /* SorteioView.swift */,
+				BCD89A8D2C2DA60400CB1E66 /* OutraView.swift */,
 				F5ABB1702C220C380041BE46 /* Assets.xcassets */,
 				F5ABB17A2C234FB50041BE46 /* CartaDeBaralhoView.swift */,
 				F5ABB1722C220C380041BE46 /* Preview Content */,
@@ -143,6 +146,7 @@
 				F5ABB16F2C220C370041BE46 /* SorteioView.swift in Sources */,
 				F5ABB17B2C234FB50041BE46 /* CartaDeBaralhoView.swift in Sources */,
 				F5ABB16F2C220C370041BE46 /* SorteioView.swift in Sources */,
+				BCD89A8E2C2DA60400CB1E66 /* OutraView.swift in Sources */,
 				F5ABB16D2C220C370041BE46 /* open_lockerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
