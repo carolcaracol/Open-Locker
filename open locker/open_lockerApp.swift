@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct open_lockerApp: App {
     var body: some Scene {
-        WindowGroup {
-            SorteioView()
+        WindowGroup{
+            TelaInicial()
         }
     }
 }

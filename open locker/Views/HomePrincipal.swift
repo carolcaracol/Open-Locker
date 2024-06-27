@@ -48,9 +48,10 @@ struct HomePrincipal: View {
                     }
                 }
                 
+                TabView().padding(.bottom, -10)
                 
-                NavBar()
-                    .padding(.bottom, -26)
+//                NavBar()
+//                    .padding(.bottom, -26)
                 Rectangle()
                     .ignoresSafeArea()
                     .frame(height: 25)
@@ -61,7 +62,7 @@ struct HomePrincipal: View {
 //                    .frame(width: 393, height: 81)
             }
             //mudar para toolbar item para mandar para o centro
-            .navigationTitle("tipos")
+            .navigationTitle("técnicas")
             .font(.system(size:16))
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbarBackground(.roxo, for: .navigationBar)

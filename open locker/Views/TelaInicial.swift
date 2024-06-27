@@ -7,8 +7,16 @@
 import SwiftUI
 
 struct TelaInicial: View {
+    
+    @State var isPresented: Bool  = false
+    
     var body: some View {
         ZStack {
+//            Image(.fundorecorte)
+//            
+            RoundedRectangle(cornerRadius: 8)
+                .strokeBorder(Color.roxoescuro, lineWidth: 3).frame(width: 360.0, height: 725.0)
+                
             VStack {
                 Spacer()
                 ZStack {
@@ -23,26 +31,39 @@ struct TelaInicial: View {
                         Spacer()
                         Image(.lock)
                     }
-                    Image(.sobre)
-                        .padding(.top, -30)
+                    
+                    Button (action: {isPresented = true
+                    print("cliquei")}){
+                        Image(.sobre)
+                        .frame(height: 55)
+                    }.padding(.top, -30)
+//                    {
+//                        isPresented = true
+//                    } label: {
+//                        Image(.sobre)
+//                            .padding(.top, -30)
+//                    }
+                   
                 }
                 .padding(.leading, 40)
                 .padding(.bottom, 40)
                 .padding(.trailing, 40)
-//                    .padding([.bottom, .trailing], 120.0)
-                    
+                //                    .padding([.bottom, .trailing], 120.0)
+                
                 Spacer()
             }
-            .padding()
-            .background(Color.roxoclaro)
-            .edgesIgnoringSafeArea(.all)
-            Image(.fundorecorte)
-                .resizable()
-                .scaledToFit()
             
+            
+           
+        if isPresented{
+                PopupSobre(isPresented: $isPresented)
+            }
+        } .background(Color.roxoclaro)
+            .edgesIgnoringSafeArea(.all)
+        
         }
     }
-}
+
 #Preview {
     TelaInicial()
 }
