@@ -17,12 +17,12 @@ struct TabView: View {
             .padding(.trailing, -25)
             
             // Botao Galeria
-            NavigationLink(destination: SorteioView()) {
+            NavigationLink(destination: GalleryView()) {
                 TabGaleria()
             }
             .padding(.trailing, -25)
             // Botao Premios
-            NavigationLink(destination: EmbaralhamentoAzul()){
+            NavigationLink(destination: NotebookView()){
                 TabPremios()
             }
         }
