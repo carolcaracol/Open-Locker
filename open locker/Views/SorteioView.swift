@@ -15,7 +15,7 @@ struct SorteioView: View {
                 Spacer()
                 
                 HStack {
-                    Image(.sorteio)
+                    Image(.chindogu)
                         .padding(.trailing, 140 )
                 }
                 .padding(-3)
