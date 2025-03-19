@@ -27,7 +27,9 @@ struct TelaInicial: View {
                     .padding(.bottom, 80)
                 VStack(alignment: .leading) {
                     HStack {
-                        Image(.inicio)
+                        NavigationLink(destination: HomePrincipal()) {
+                            Image(.inicio)
+                        }
                         Spacer()
                         Image(.lock)
                     }

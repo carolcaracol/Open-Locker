@@ -40,7 +40,9 @@ struct HomePrincipal: View {
                             .padding(.leading, 38)
                             .padding(.trailing, 60)
                             .padding(.bottom, 30)
-                        Image(.chindogubotao)
+                        NavigationLink (destination: CardView()){
+                            Image(.chindogubotao)
+                        }
                         Image(.formasbotao)
                         Image(.cenasbotao)
                         Image(.crazybotao)

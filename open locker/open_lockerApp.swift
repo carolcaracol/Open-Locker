@@ -11,7 +11,12 @@ import SwiftUI
 struct open_lockerApp: App {
     var body: some Scene {
         WindowGroup{
-            TelaInicial()
+            NavigationView{
+                TelaInicial()
+            }
+            
+            
+            //HomePrincipal()
         }
     }
 }
